@@ -1,0 +1,282 @@
+.title {
+    width: 100%;
+    height: 12vw;
+    background-color: #1d2b2d;
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 900;
+    text-decoration: underline 4px;
+    text-underline-position: under;
+    font-family: source sans pro, sans-serif;
+    color: white;
+    letter-spacing: 6px;
+}
+.link:link{
+    color: white;
+}
+.link:visited{
+    color: white;
+}
+.name-link:link{
+    color: black;
+}
+.name-link:visited{
+    color: black;
+}
+.link:hover {
+    color: aquamarine;
+    transition: color 1s;
+}
+.name-link:hover{
+    color: #006CFF;
+    transition: color 1s;
+}
+.link:active{
+    color: aquamarine;
+}
+.link {text-decoration:none;
+       color: black; }
+.content {
+    width: 55vw;
+    height: 800px;
+    position: absolute;
+    left: 15%;
+    top: 20vw;
+    background-color: white;
+    font-family: XinYuGongHeXieSong-H;
+    font-size:2vw;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+    padding:2vw;
+
+}
+h1{
+    font-size: 3.5vw;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    font-family: kaiti;
+    font-weight: 700;
+}
+.article-title{
+    text-decoration: underline 4px darkslategray!important;
+
+    text-underline-position: under !important;
+}
+.article-title {text-decoration:none;
+    color: black}
+.article-title：link{
+    color: black;
+}
+.article-title:visited{
+    color: black;
+}
+.article-title:hover{
+    color: #006CFF;
+    transition: color 0.4s;
+}
+.wu {text-decoration:none;
+     color: black}
+.wu：link{
+    color: black;
+}
+.wu:visited{
+    color: black;
+}
+.wu:hover{
+    color: #006CFF;
+    transition: color 0.4s;
+}
+.name {
+    width: 11%;
+    height: 55px;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 800;
+    font-family: "Londrina Sketch", sans-serif;
+    color: black;
+    position: absolute;
+    left: 2.8%;
+    top: 40%;
+
+}
+.TX {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100px;
+    overflow: hidden;
+    position: absolute;
+    left: 3%;
+    top: 25%;
+}
+
+.TX img {
+    width: 100%;
+    height: 100%;
+}
+.picture {
+    width: 20vw;
+    height: 20vw;
+}
+
+.picture:link{
+     color: darkgray;
+ }
+.picture:visited{
+    color: darkgray;
+}
+.picture:hover{
+    box-shadow: 10px 10px 0 0;
+    transition-duration: 1s;
+    color: darkgray;
+}
+#zhou{
+    position: absolute;
+    top: 75%;
+    left: 77%;
+}
+
+#glimmer{
+    position: absolute;
+    top: 35.5%;
+    left: 77%;
+}
+#yuan{
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    width: 10vw;
+    height: 10vw;
+}
+#yuan2{
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    width: 10vw;
+    height: 10vw;
+}
+
+.card {
+    margin: 2vw 1vw;
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    background-color: #EFEBE9;
+    text-align: center;
+    border-radius: 16px;
+    position: absolute;
+    top:30%;
+    left: 15%;
+    font-size:20px  ;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.card:link{
+    color: darkgray;
+}
+.card:visited{
+    color: darkgray;
+}
+.card:hover{
+    box-shadow: 10px 10px 0 0;
+    transition-duration: 1s;
+    color: darkgray;}
+.card2 {
+    margin: 2vw 1vw;
+    display: grid;
+    grid-template-rows: max-content 300px 1fr;
+    background-color: #EFEBE9;
+    text-align: center;
+    border-radius: 16px;
+    position: absolute;
+    top:25%;
+    left: 67%;
+    font-size:20px  ;
+}
+
+.card2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.card2:link{
+    color: darkgray;
+}
+.card2:visited{
+    color: darkgray;
+}
+.card2:hover{
+    box-shadow: 10px 10px 0 0;
+    transition-duration: 1s;
+    color: darkgray;
+}
+.card3 {
+    margin: 2vw 1vw;
+    display: grid;
+    grid-template-rows: max-content 300px 1fr;
+    background-color: #EFEBE9;
+    text-align: center;
+    border-radius: 16px;
+    position: absolute;
+    top:70%;
+    left: 40%;
+    font-size:20px  ;
+    padding:2px;
+}
+
+.card3 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.card3:link{
+    color: darkgray;
+}
+.card3:visited{
+    color: darkgray;
+}
+.card3:hover{
+    box-shadow: 10px 10px 0 0;
+    transition-duration: 1s;
+    color: darkgray;
+}
+.card4 {
+    margin: 2vw 1vw;
+    display: grid;
+    grid-template-rows: max-content 300px 1fr;
+    background-color: #EFEBE9;
+    text-align: center;
+    border-radius: 16px;
+    position: absolute;
+    top:70%;
+    left: 15%;
+    font-size:20px  ;
+    padding:2px;
+}
+
+.card4 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.card4:link{
+    color: darkgray;
+}
+.card4:visited{
+    color: darkgray;
+}
+.card4:hover{
+    box-shadow: 10px 10px 0 0;
+    transition-duration: 1s;
+    color: darkgray;
+}
+
+
+
+
+
